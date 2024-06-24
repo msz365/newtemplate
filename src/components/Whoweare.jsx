@@ -8,10 +8,10 @@ const Whoweare = () => {
   return (
     <section
       id='whoweare'
-      className='relative flex flex-col  gap-10 w-full max-lg:px-10 max-md:px-5 px-24 py-20  bg-[url("/truckbg.webp")] bg-cover bg-center rounded-tl-4xl rounded-br-4xl'
+      className='relative px-5 flex justify-center w-full  max-xl:px-5 max-l:px-5 py-20  bg-[url("/truckbg.webp")] bg-cover bg-center rounded-tl-4xl rounded-br-4xl'
     >
       <div className="absolute w-full h-full top-0 left-0 bg-mycolor-50/20 dark:bg-mycolor-50/30 rounded-tl-4xl rounded-br-4xl"></div>
-      <div className=' pt-8 flex items-center justify-center flex-col rounded-lg bg-black/50 dark:bg-black/70 backdrop-grayscale'>
+      <div className=' w-[1440px] px-10 pt-8 flex items-center justify-center max-lg:px-10 max-l:px-10 max-xl:w-full flex-col rounded-lg bg-black/50 dark:bg-black/70 backdrop-grayscale'>
         <h2 className='font-extrabold text-white text-4xl uppercase max-md:text-2xl'>
           <span className='text-mycolor-50'>WHO</span> WE ARE
         </h2>
@@ -26,7 +26,7 @@ const Whoweare = () => {
           />
           <div className='w-14 border border-dashed border-mycolor-50'></div>
         </div>
-        <p className='mt-5 text-justify max-w-screen-l max-lg:w-auto  pb-8 font-light text-white max-lg:text-sm leading-7 text-xl'>
+        <p className='mt-5 text-justify max-w-screen-l max-lg:w-full pb-8 font-light text-white max-lg:text-sm leading-7 text-xl'>
           At CW Express LLC, we are dedicated to providing reliable, efficient,
           and customized logistics solutions tailored to meet the unique needs
           of each client. Founded with a passion for excellence, our journey
@@ -47,7 +47,7 @@ const Whoweare = () => {
           </span>
         </p>
         <div className='max-w-screen-l py-10 flex'>
-          <div className='grid grid-cols-5 gap-5'>
+          <div className='grid grid-cols-5 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 gap-5'>
             <div className='flex flex-col items-center justify-center'>
               <div className='rounded-full bg-white shadow-lg px-2 py-2'>
                 <Image

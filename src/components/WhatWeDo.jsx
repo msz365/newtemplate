@@ -38,10 +38,9 @@ const WhatWeDo = () => {
           for customer satisfaction are designed to meet the needs of
           today&apos;s fast-paced world. CW EXPRESS LLC is the only call you
           need to make for your next shipping arrangement.
-        
         </p>
       </div>
-      <div className='max-w-screen-l mx-auto px-10 mt-5 grid grid-cols-2 max-lg:grid-cols-1 max-md:px-5 max-l:px-8 gap-10'>
+      <div className='max-w-screen-l mx-auto px-10 mt-5 grid grid-cols-2 max-lg:grid-cols-1 max-lg:px-2 max-md:px-0 max-l:px-8 gap-10'>
         <ServiceCard
           title={"Truckload Services"}
           description={
@@ -70,44 +69,6 @@ const WhatWeDo = () => {
           }
           imageUrl={boxes}
         />
-
-        {/* <div className='flex items-center justify-center flex-col gap-3 px-5 max-md:px-1'>
-       
-          <Image src='/mobile.svg' alt='mobile icon' height={60} width={60} />
-          <h3 className='font-semibold max-lg:text-sm text-xl text-black dark:text-white tracking-tighter'>
-          Freight Hauling
-          </h3>
-          <p className='text-center pb-8 font-light text-gray-500 max-lg:text-sm leading-7 text-xl'>
-          CW EXPRESS LLC offers a wide range of hauling solutions. Browse the categories below to find the services that meet your demands.
-          </p>
-        </div>
-        <div className='flex items-center justify-center flex-col gap-3 px-5 max-md:px-1'>
-    
-          <Image
-            src='/responsive.svg'
-            alt='mobile icon'
-            height={60}
-            width={60}
-          />
-          <h3 className='font-semibold max-lg:text-sm text-xl text-black dark:text-white tracking-tighter'>
-            Fully Responsive
-          </h3>
-          <p className='text-center pb-8 font-light text-gray-500 max-lg:text-sm leading-7 text-xl'>
-            Your website will fit all mobile screens sizes, tablets, and desktop
-            sizes so new clients can access your site from anywhere.
-          </p>
-        </div>
-        <div className='flex items-center justify-center flex-col gap-3 px-5 max-md:px-1'>
-         
-          <Image src='/optimize.svg' alt='mobile icon' height={60} width={60} />
-          <h3 className='font-semibold max-lg:text-sm text-xl text-black dark:text-white tracking-tighter'>
-            Optimization
-          </h3>
-          <p className='text-center pb-8 font-light text-gray-500 max-lg:text-sm leading-7 text-xl'>
-            60% of all internet traffic is on mobile devices, so we optimize
-            your mobile to perform their best in search engines.
-          </p>
-        </div> */}
       </div>
     </section>
   );

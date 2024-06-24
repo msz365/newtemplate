@@ -9,14 +9,14 @@ const ServiceCard = ({title,description,imageUrl}) => {
             <h3 className='font-semibold max-lg:text-sm text-xl text-black dark:text-white tracking-tighter'>
           {title}
           </h3>
-          <div className="w-2/3 pt-2">
+          <div className="w-2/3 max-md:w-3/4 pt-2">
           <p className='pb-8 font-light text-gray-500 max-lg:text-sm leading-7 text-md'>
           {description}
           </p>
           
           </div>
           <div className="absolute bottom-2 -right-10">
-            <Image src={imageUrl} height={200} width={200} alt="Truck" />
+            <Image src={imageUrl} height={200} width={200} className="max-md:w-32" alt="Truck" />
           </div>
             </div>
         </div>
